@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+   
+    background-image: url(./img/back.png);
+}
+.the-father {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    
+}
+.main-sec {
+    width: 700px;
+    height: 100%;
+    background-color: white;
+    
+}
+.last-sec {
+    width: 100%;
+    height: 150px;
+}
+header {
+    width: 100%;
+    height: 123px;
+    background-color: #B7CB20;
+    display: flex;
+
+
+}
+.top li {
+    display: inline-block;
+  
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+.top a {
+    text-decoration: none;
+    text-emphasis-color: red;
+    margin: 15px;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+
+}
+.img { width: 230px;
+height: 100px;
+float: left;
+margin: 0px 20px;
+}
+.p2 {
+    margin: 0px 20px 30px 20px;
+}
+.img2 {
+    width: 230px;
+    height: 100px;
+    float: left;
+    margin: 0px 20px;
+}
+.p3 {
+    margin: 0px 20px;
+}
+.p4 {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fn {
+    margin: 0px 0px 30px 40px;
+}
+.bu {
+    background-color: #B7CB20;
+    color: white;
+    border: none;
+    margin-left: 600px;
+    width: 65px;
+    height: 40px;
+}
+.who {
+    display:inline-block;
+    color: #B7CB20;
+    padding: 20px 0px 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+    text-align: center;
+}
